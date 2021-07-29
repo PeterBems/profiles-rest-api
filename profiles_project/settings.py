@@ -25,7 +25,10 @@ SECRET_KEY = 'lwif-j6=@g7&z0*zn=0n2abr(fw*_=07e8(nc6x4bd$7b5a@k_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(int(os.environ.get('DEBUG',1)))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'ec2-3-138-154-19.us-east-2.compute.amazonaws.com',
+    '127.0.0.1'
+]
 
 
 # Application definition
